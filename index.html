@@ -1,0 +1,2191 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/logo-modified.png" />
+
+    <!-- SEO Meta Tags -->
+    <title>
+      Détective Privé Maroc | Enquêtes Professionnelles à Rabat, Casablanca,
+      Agadir, Marrakech.
+    </title>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("gPrE0W-KmYytPzg4_");
+      })();
+    </script>
+    <meta
+      name="description"
+      content="Agence de détective privé au Maroc. Services d'investigation professionnels et confidentiels à Rabat, Casablanca, Agadir et Marrakech. Expertise en enquêtes privées, surveillance et recherches."
+    />
+    <meta
+      name="keywords"
+      content="détective privé Maroc, enquêteur privé Rabat, détective Casablanca, investigation privée Agadir, détective Marrakech, enquête privée Maroc, surveillance professionnelle"
+    />
+    <meta name="author" content="Détective Privé Maroc" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Détective Privé Maroc | Services d'Investigation Professionnels"
+    />
+    <meta
+      property="og:description"
+      content="Agence de détective privé au Maroc offrant des services d'investigation confidentiels et professionnels."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.detective-prive-maroc.com" />
+    <meta property="og:locale" content="fr_MA" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Détective Privé Maroc | Services d'Investigation"
+    />
+    <meta
+      name="twitter:description"
+      content="Services d'investigation professionnels et confidentiels au Maroc."
+    />
+
+    <!-- Geo Meta Tags -->
+    <meta name="geo.region" content="MA" />
+    <meta name="geo.placename" content="Rabat, Casablanca, Agadir, Marrakech" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.detective-prive-maroc.com" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        overflow-x: hidden;
+      }
+
+      .font-display {
+        font-family: "Playfair Display", serif;
+      }
+
+      .hero-gradient {
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+      }
+
+      .text-gradient {
+        background: linear-gradient(135deg, #d4af37 0%, #f4e4b0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .card-hover {
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .card-hover:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      }
+
+      .nav-link {
+        position: relative;
+        transition: color 0.3s ease;
+      }
+
+      .nav-link::after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #d4af37;
+        transition: width 0.3s ease;
+      }
+
+      .nav-link:hover::after {
+        width: 100%;
+      }
+
+      .mobile-menu {
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+      }
+
+      .mobile-menu.active {
+        transform: translateX(0);
+      }
+
+      .fade-in {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+      }
+
+      .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .btn-primary {
+        background: #d4af37;
+        color: #1a1a1a;
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary:hover {
+        background: #f4e4b0;
+        transform: scale(1.05);
+      }
+
+      .btn-secondary {
+        border: 2px solid #d4af37;
+        color: #d4af37;
+        transition: all 0.3s ease;
+      }
+
+      .btn-secondary:hover {
+        background: #d4af37;
+        color: #1a1a1a;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <div class="text-2xl font-display font-bold text-gray-900">
+              <span class="text-gradient">Magic</span> Invistigateur
+            </div>
+          </div>
+
+          <!-- Desktop Navigation -->
+          <div class="hidden md:flex items-center space-x-8">
+            <a
+              href="#accueil"
+              class="nav-link text-gray-700 hover:text-gray-900 font-medium"
+              >Accueil</a
+            >
+            <a
+              href="#services"
+              class="nav-link text-gray-700 hover:text-gray-900 font-medium"
+              >Services</a
+            >
+            <a
+              href="#apropos"
+              class="nav-link text-gray-700 hover:text-gray-900 font-medium"
+              >À Propos</a
+            >
+            <a
+              href="#processus"
+              class="nav-link text-gray-700 hover:text-gray-900 font-medium"
+              >Processus</a
+            >
+            <!-- Added Blog link to navigation -->
+            <a
+              href="#blog"
+              class="nav-link text-gray-700 hover:text-gray-900 font-medium"
+              >Blog</a
+            >
+            <a
+              href="#temoignages"
+              class="nav-link text-gray-700 hover:text-gray-900 font-medium"
+              >Témoignages</a
+            >
+
+            <div class="flex flex-col text-right text-gray-700">
+              <span class="font-medium"
+                ><a
+                  href="tel:+212665066015"
+                  class="text-gray-700 hover:text-gray-900 font-medium"
+                >
+                  📞 +212 665 066 015
+                </a>
+              </span>
+
+              <span class="font-medium"
+                ><a
+                  href="mailto:contact@example.com"
+                  class="text-gray-700 hover:text-gray-900 font-medium"
+                >
+                  ✉️ contact@example.com
+                </a>
+              </span>
+            </div>
+
+            <a
+              href="#contact"
+              class="btn-primary px-6 py-2.5 rounded-full font-semibold"
+              >Contact</a
+            >
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button
+            id="mobile-menu-btn"
+            class="md:hidden text-gray-900 focus:outline-none"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        style="width: 100%; height: 100vh; background: white"
+        id="mobile-menu"
+        class="mobile-menu fixed top-0 right-0 w-64 h-full bg-white shadow-2xl md:hidden"
+      >
+        <div class="flex flex-col p-6 space-y-6">
+          <button id="close-menu" class="self-end text-gray-900">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </button>
+          <a
+            href="#accueil"
+            class="text-gray-700 hover:text-gray-900 font-medium text-lg mobile-link"
+            >Accueil</a
+          >
+          <a
+            href="#services"
+            class="text-gray-700 hover:text-gray-900 font-medium text-lg mobile-link"
+            >Services</a
+          >
+          <a
+            href="#apropos"
+            class="text-gray-700 hover:text-gray-900 font-medium text-lg mobile-link"
+            >À Propos</a
+          >
+          <a
+            href="#processus"
+            class="text-gray-700 hover:text-gray-900 font-medium text-lg mobile-link"
+            >Processus</a
+          >
+          <!-- Added Blog link to mobile menu -->
+          <a
+            href="#blog"
+            class="text-gray-700 hover:text-gray-900 font-medium text-lg mobile-link"
+            >Blog</a
+          >
+          <a
+            href="#temoignages"
+            class="text-gray-700 hover:text-gray-900 font-medium text-lg mobile-link"
+            >Témoignages</a
+          >
+
+          <div class="flex flex-col text-left text-gray-700">
+            <span class="font-medium"><a href="">📞 +212 600 000 000</a></span>
+            <span class="font-medium"
+              ><a href="">✉️ contact@example.com</a></span
+            >
+          </div>
+
+          <a
+            href="#contact"
+            class="btn-primary px-6 py-3 rounded-full font-semibold text-center mobile-link"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="accueil"
+      class="hero-gradient pt-32 pb-20 px-4 sm:px-6 lg:px-8"
+    >
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="text-white fade-in">
+            <h1
+              class="text-5xl md:text-6xl font-display font-bold mb-6 leading-tight"
+            >
+              Casablanca
+              <span class="text-gradient"></span> Invistigateur
+            </h1>
+            <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+              Expertise en enquêtes privées, surveillance discrète et recherches
+              approfondies. Confidentialité garantie, résultats professionnels.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a
+                href="#contact"
+                class="btn-primary px-8 py-4 rounded-full font-semibold text-center text-lg"
+              >
+                Consultation Gratuite
+              </a>
+              <a
+                href="#services"
+                class="btn-secondary px-8 py-4 rounded-full font-semibold text-center text-lg"
+              >
+                Nos Services
+              </a>
+            </div>
+
+            <!-- Cities -->
+            <div class="mt-12 flex flex-wrap gap-4">
+              <div class="flex items-center gap-2 text-gray-300">
+                <svg
+                  class="w-5 h-5 text-yellow-500"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>Rabat</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-300">
+                <svg
+                  class="w-5 h-5 text-yellow-500"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>Casablanca</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-300">
+                <svg
+                  class="w-5 h-5 text-yellow-500"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>Agadir</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-300">
+                <svg
+                  class="w-5 h-5 text-yellow-500"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>Marrakech</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="fade-in">
+            <img
+              src="assets/hero.jpg"
+              alt="Détective Privé Professionnel"
+              class="rounded-2xl shadow-2xl w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-4xl md:text-5xl font-display font-bold mb-4">
+            Nos <span class="text-gradient">Services</span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Des solutions d'investigation adaptées à vos besoins spécifiques
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service 1 -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg card-hover fade-in">
+            <div
+              class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Enquêtes Privées</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Investigations approfondies pour particuliers et entreprises.
+              Recherche de personnes, vérification d'informations et collecte de
+              preuves.
+            </p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg card-hover fade-in">
+            <div
+              class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                ></path>
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Surveillance Discrète</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Surveillance professionnelle et discrète avec documentation photo
+              et vidéo. Filatures et observations sur le terrain.
+            </p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg card-hover fade-in">
+            <div
+              class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Enquêtes Entreprises</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Vérification de partenaires commerciaux, détection de fraudes
+              internes et protection de vos intérêts professionnels.
+            </p>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg card-hover fade-in">
+            <div
+              class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Recherche de Personnes</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Localisation de personnes disparues, retrouvailles familiales et
+              recherche d'héritiers. Méthodes légales et efficaces.
+            </p>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg card-hover fade-in">
+            <div
+              class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Contre-Espionnage</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Détection de dispositifs d'écoute, sécurisation de locaux et
+              protection contre l'espionnage industriel.
+            </p>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg card-hover fade-in">
+            <div
+              class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-white"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="text-2xl font-bold mb-4">Rapports Juridiques</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Collecte de preuves recevables en justice, rapports détaillés et
+              témoignages d'expert pour vos procédures légales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-4xl md:text-5xl font-display font-bold mb-4">
+            Pourquoi Nous <span class="text-gradient">Choisir</span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Une expertise reconnue au service de votre tranquillité d'esprit
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="text-center fade-in">
+            <div class="mb-6">
+              <img
+                src="assets/back2.jpg"
+                alt="Expérience Professionnelle"
+                class="rounded-2xl shadow-lg w-full h-64 object-cover"
+              />
+            </div>
+            <h3 class="text-xl font-bold mb-3">15+ Ans d'Expérience</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Une expertise éprouvée dans tous types d'investigations au Maroc
+            </p>
+          </div>
+
+          <div class="text-center fade-in">
+            <div class="mb-6">
+              <img
+                src="assets/Background-Investigations.png.webp"
+                alt="Confidentialité Absolue"
+                class="rounded-2xl shadow-lg w-full h-64 object-cover"
+              />
+            </div>
+            <h3 class="text-xl font-bold mb-3">Confidentialité Absolue</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Protection totale de vos informations et discrétion garantie
+            </p>
+          </div>
+
+          <div class="text-center fade-in">
+            <div class="mb-6">
+              <img
+                src="assets/imh.jpg"
+                alt="Technologie Avancée"
+                class="rounded-2xl shadow-lg w-full h-64 object-cover"
+              />
+            </div>
+            <h3 class="text-xl font-bold mb-3">Technologie Avancée</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Équipements de pointe pour des résultats précis et fiables
+            </p>
+          </div>
+
+          <div class="text-center fade-in">
+            <div class="mb-6">
+              <img
+                src="assets/Private-Investigations.png.webp"
+                alt="Disponibilité 24/7"
+                class="rounded-2xl shadow-lg w-full h-64 object-cover"
+              />
+            </div>
+            <h3 class="text-xl font-bold mb-3">Disponibilité 24/7</h3>
+            <p class="text-gray-600 leading-relaxed">
+              Une équipe à votre écoute à tout moment, même en urgence
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="fade-in">
+            <img
+              src="assets/photoIn.jpg"
+              alt="À Propos de Notre Agence"
+              class="rounded-2xl shadow-2xl w-full"
+            />
+          </div>
+
+          <div class="fade-in">
+            <h2 class="text-4xl md:text-5xl font-display font-bold mb-6">
+              Expertise et <span class="text-gradient">Confidentialité</span>
+            </h2>
+            <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+              Avec plus de 15 ans d'expérience dans le domaine de
+              l'investigation privée au Maroc, notre agence s'est imposée comme
+              une référence en matière de professionnalisme et de discrétion.
+            </p>
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+              Nous intervenons dans tout le Maroc, avec une présence établie à
+              Rabat, Casablanca, Agadir et Marrakech. Notre équipe de détectives
+              qualifiés utilise les technologies les plus avancées tout en
+              respectant strictement le cadre légal marocain.
+            </p>
+
+            <div class="grid grid-cols-2 gap-6 mb-8">
+              <div class="text-center p-6 bg-white rounded-xl shadow-md">
+                <div class="text-4xl font-bold text-gradient mb-2">15+</div>
+                <div class="text-gray-600">Années d'Expérience</div>
+              </div>
+              <div class="text-center p-6 bg-white rounded-xl shadow-md">
+                <div class="text-4xl font-bold text-gradient mb-2">500+</div>
+                <div class="text-gray-600">Cas Résolus</div>
+              </div>
+              <div class="text-center p-6 bg-white rounded-xl shadow-md">
+                <div class="text-4xl font-bold text-gradient mb-2">100%</div>
+                <div class="text-gray-600">Confidentialité</div>
+              </div>
+              <div class="text-center p-6 bg-white rounded-xl shadow-md">
+                <div class="text-4xl font-bold text-gradient mb-2">24/7</div>
+                <div class="text-gray-600">Disponibilité</div>
+              </div>
+            </div>
+
+            <a
+              href="#contact"
+              class="btn-primary px-8 py-4 rounded-full font-semibold inline-block"
+            >
+              Contactez-Nous
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-4xl md:text-5xl font-display font-bold mb-4">
+            Notre <span class="text-gradient">Équipe</span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Des professionnels qualifiés et expérimentés à votre service
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover fade-in"
+          >
+            <img
+              src="assets/man.jpg"
+              alt="Détective Principal"
+              class="w-full h-80 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Karim Alaoui</h3>
+              <p class="text-yellow-600 font-semibold mb-3">
+                Détective Principal
+              </p>
+              <p class="text-gray-600 leading-relaxed">
+                Expert en investigations complexes avec 20 ans d'expérience.
+                Spécialisé dans les enquêtes corporatives et la surveillance.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover fade-in"
+          >
+            <img
+              src="assets/woman.jpg"
+              alt="Enquêtrice Senior"
+              class="w-full h-80 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Samira Bennani</h3>
+              <p class="text-yellow-600 font-semibold mb-3">
+                Enquêtrice Senior
+              </p>
+              <p class="text-gray-600 leading-relaxed">
+                Spécialiste en recherche de personnes et enquêtes familiales. 15
+                ans d'expérience dans les investigations délicates.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover fade-in"
+          >
+            <img
+              src="assets/man.jpg"
+              alt="Expert Technique"
+              class="w-full h-80 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-2xl font-bold mb-2">Youssef Tazi</h3>
+              <p class="text-yellow-600 font-semibold mb-3">Expert Technique</p>
+              <p class="text-gray-600 leading-relaxed">
+                Spécialiste en contre-espionnage et sécurité électronique.
+                Expert en détection de dispositifs d'écoute.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="processus" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-4xl md:text-5xl font-display font-bold mb-4">
+            Notre <span class="text-gradient">Processus</span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Une méthodologie éprouvée pour des résultats optimaux
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+          <div class="fade-in order-2 md:order-1">
+            <div class="space-y-8">
+              <div class="flex gap-6">
+                <div class="flex-shrink-0">
+                  <div
+                    class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center text-white text-2xl font-bold"
+                  >
+                    1
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold mb-3">Consultation Initiale</h3>
+                  <p class="text-gray-600 leading-relaxed">
+                    Entretien confidentiel pour comprendre vos besoins et
+                    définir les objectifs de l'investigation. Évaluation
+                    gratuite de votre situation.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-6">
+                <div class="flex-shrink-0">
+                  <div
+                    class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center text-white text-2xl font-bold"
+                  >
+                    2
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold mb-3">
+                    Planification Stratégique
+                  </h3>
+                  <p class="text-gray-600 leading-relaxed">
+                    Élaboration d'un plan d'action détaillé avec méthodologie
+                    adaptée, ressources nécessaires et calendrier prévisionnel.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-6">
+                <div class="flex-shrink-0">
+                  <div
+                    class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center text-white text-2xl font-bold"
+                  >
+                    3
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold mb-3">Investigation Terrain</h3>
+                  <p class="text-gray-600 leading-relaxed">
+                    Mise en œuvre de l'enquête avec surveillance discrète,
+                    collecte de preuves et documentation complète de tous les
+                    éléments.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-6">
+                <div class="flex-shrink-0">
+                  <div
+                    class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center text-white text-2xl font-bold"
+                  >
+                    4
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-2xl font-bold mb-3">Rapport Détaillé</h3>
+                  <p class="text-gray-600 leading-relaxed">
+                    Remise d'un rapport complet avec preuves, photos, vidéos et
+                    conclusions. Présentation personnalisée des résultats.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fade-in order-1 md:order-2">
+            <img
+              src="assets/processus.jpg"
+              alt="Processus d'Investigation"
+              class="rounded-2xl shadow-2xl w-full"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Areas We Serve Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-4xl md:text-5xl font-display font-bold mb-4">
+            Zones d'<span class="text-gradient">Intervention</span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Présents dans les principales villes du Maroc
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div
+            class="relative overflow-hidden rounded-2xl shadow-lg card-hover fade-in group"
+          >
+            <img
+              src="assets/Rabat.webp"
+              alt="Rabat"
+              class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end"
+            >
+              <div class="p-6 text-white">
+                <h3 class="text-3xl font-bold mb-2">Rabat</h3>
+                <p class="text-gray-200">Capitale administrative</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="relative overflow-hidden rounded-2xl shadow-lg card-hover fade-in group"
+          >
+            <img
+              src="assets/casa.webp"
+              alt="Casablanca"
+              class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end"
+            >
+              <div class="p-6 text-white">
+                <h3 class="text-3xl font-bold mb-2">Casablanca</h3>
+                <p class="text-gray-200">Centre économique</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="relative overflow-hidden rounded-2xl shadow-lg card-hover fade-in group"
+          >
+            <img
+              src="assets/Agadir.webp"
+              alt="Agadir"
+              class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end"
+            >
+              <div class="p-6 text-white">
+                <h3 class="text-3xl font-bold mb-2">Agadir</h3>
+                <p class="text-gray-200">Ville côtière</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="relative overflow-hidden rounded-2xl shadow-lg card-hover fade-in group"
+          >
+            <img
+              src="assets/Marrakech.webp"
+              alt="Marrakech"
+              class="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex items-end"
+            >
+              <div class="p-6 text-white">
+                <h3 class="text-3xl font-bold mb-2">Marrakech</h3>
+                <p class="text-gray-200">Perle du Sud</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-4xl md:text-5xl font-display font-bold mb-4">
+            Questions <span class="text-gradient">Fréquentes</span>
+          </h2>
+          <p class="text-xl text-gray-600">
+            Réponses aux questions les plus courantes
+          </p>
+        </div>
+
+        <div class="space-y-6">
+          <div class="bg-white rounded-2xl shadow-lg p-8 fade-in">
+            <h3 class="text-xl font-bold mb-3 flex items-center gap-3">
+              <span class="text-yellow-600">Q:</span>
+              Vos services sont-ils légaux au Maroc ?
+            </h3>
+            <p class="text-gray-600 leading-relaxed pl-8">
+              Oui, absolument. Nous opérons dans le strict respect de la
+              législation marocaine. Tous nos détectives sont agréés et nos
+              méthodes d'investigation sont conformes aux lois en vigueur.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl shadow-lg p-8 fade-in">
+            <h3 class="text-xl font-bold mb-3 flex items-center gap-3">
+              <span class="text-yellow-600">Q:</span>
+              Comment garantissez-vous la confidentialité ?
+            </h3>
+            <p class="text-gray-600 leading-relaxed pl-8">
+              La confidentialité est notre priorité absolue. Nous signons des
+              accords de non-divulgation, utilisons des communications cryptées
+              et ne partageons jamais vos informations avec des tiers.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl shadow-lg p-8 fade-in">
+            <h3 class="text-xl font-bold mb-3 flex items-center gap-3">
+              <span class="text-yellow-600">Q:</span>
+              Combien de temps dure une investigation ?
+            </h3>
+            <p class="text-gray-600 leading-relaxed pl-8">
+              La durée varie selon la complexité du cas. Une enquête simple peut
+              prendre quelques jours, tandis qu'une investigation complexe peut
+              nécessiter plusieurs semaines. Nous établissons un calendrier lors
+              de la consultation initiale.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl shadow-lg p-8 fade-in">
+            <h3 class="text-xl font-bold mb-3 flex items-center gap-3">
+              <span class="text-yellow-600">Q:</span>
+              Quels sont vos tarifs ?
+            </h3>
+            <p class="text-gray-600 leading-relaxed pl-8">
+              Nos tarifs dépendent du type d'investigation, de sa complexité et
+              de sa durée. Nous proposons une consultation gratuite pour évaluer
+              vos besoins et vous fournir un devis détaillé et transparent.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl shadow-lg p-8 fade-in">
+            <h3 class="text-xl font-bold mb-3 flex items-center gap-3">
+              <span class="text-yellow-600">Q:</span>
+              Les preuves collectées sont-elles recevables en justice ?
+            </h3>
+            <p class="text-gray-600 leading-relaxed pl-8">
+              Oui, toutes nos preuves sont collectées selon les procédures
+              légales et sont recevables devant les tribunaux marocains. Nous
+              fournissons des rapports détaillés conformes aux exigences
+              juridiques.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl shadow-lg p-8 fade-in">
+            <h3 class="text-xl font-bold mb-3 flex items-center gap-3">
+              <span class="text-yellow-600">Q:</span>
+              Intervenez-vous en urgence ?
+            </h3>
+            <p class="text-gray-600 leading-relaxed pl-8">
+              Oui, nous sommes disponibles 24/7 pour les situations urgentes.
+              Notre équipe peut être mobilisée rapidement pour répondre à vos
+              besoins immédiats.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-20 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-4xl md:text-5xl font-display font-bold mb-4">
+            Blog & <span class="text-gradient">Actualités</span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Conseils, actualités et informations sur l'investigation privée au
+            Maroc
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Blog Post 1 -->
+          <article
+            class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover fade-in"
+          >
+            <img
+              src="assets/blog1.webp"
+              alt="Comment choisir un détective privé au Maroc"
+              class="w-full h-56 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>15 Janvier 2025</span>
+              </div>
+              <h3 class="text-xl font-bold mb-3">
+                Comment Choisir un Détective Privé au Maroc
+              </h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Guide complet pour choisir un enquêteur privé professionnel à
+                Rabat, Casablanca, Agadir ou Marrakech. Découvrez les critères
+                essentiels pour une investigation réussie au Maroc.
+              </p>
+              <a
+                href="#"
+                class="text-yellow-600 font-semibold hover:text-yellow-700 transition"
+              >
+                Lire la suite →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog Post 2 -->
+          <article
+            class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover fade-in"
+          >
+            <img
+              src="assets/blog2.webp"
+              alt="Surveillance discrète et filature au Maroc"
+              class="w-full h-56 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>10 Janvier 2025</span>
+              </div>
+              <h3 class="text-xl font-bold mb-3">
+                Surveillance Discrète et Filature au Maroc
+              </h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Techniques modernes de surveillance et filature utilisées par
+                les détectives privés marocains. Investigation professionnelle
+                avec preuves photo et vidéo légales.
+              </p>
+              <a
+                href="#"
+                class="text-yellow-600 font-semibold hover:text-yellow-700 transition"
+              >
+                Lire la suite →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog Post 3 -->
+          <article
+            class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover fade-in"
+          >
+            <img
+              src="assets/blog3.webp"
+              alt="Enquêtes d'entreprise et fraude interne"
+              class="w-full h-56 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>5 Janvier 2025</span>
+              </div>
+              <h3 class="text-xl font-bold mb-3">
+                Enquêtes d'Entreprise et Détection de Fraude
+              </h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Protection de votre entreprise contre la fraude interne,
+                l'espionnage industriel et les partenaires douteux. Services
+                d'investigation corporate à Casablanca et Rabat.
+              </p>
+              <a
+                href="#"
+                class="text-yellow-600 font-semibold hover:text-yellow-700 transition"
+              >
+                Lire la suite →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog Post 4 -->
+          <article
+            class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover fade-in"
+          >
+            <img
+              src="assets/blog4.webp"
+              alt="Recherche de personnes disparues au Maroc"
+              class="w-full h-56 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>28 Décembre 2024</span>
+              </div>
+              <h3 class="text-xl font-bold mb-3">
+                Recherche de Personnes Disparues au Maroc
+              </h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Méthodes efficaces pour retrouver une personne disparue au
+                Maroc. Localisation de personnes, retrouvailles familiales et
+                recherche d'héritiers par détective privé agréé.
+              </p>
+              <a
+                href="#"
+                class="text-yellow-600 font-semibold hover:text-yellow-700 transition"
+              >
+                Lire la suite →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog Post 5 -->
+          <article
+            class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover fade-in"
+          >
+            <img
+              src="assets/blog5.webp"
+              alt="Preuves légales et rapports juridiques"
+              class="w-full h-56 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>20 Décembre 2024</span>
+              </div>
+              <h3 class="text-xl font-bold mb-3">
+                Preuves Légales et Rapports Juridiques
+              </h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Comment obtenir des preuves recevables en justice au Maroc.
+                Rapports d'investigation conformes à la législation marocaine
+                pour divorce, garde d'enfants et litiges commerciaux.
+              </p>
+              <a
+                href="#"
+                class="text-yellow-600 font-semibold hover:text-yellow-700 transition"
+              >
+                Lire la suite →
+              </a>
+            </div>
+          </article>
+
+          <!-- Blog Post 6 -->
+          <article
+            class="bg-white rounded-2xl shadow-lg overflow-hidden card-hover fade-in"
+          >
+            <img
+              src="assets/blog6.webp"
+              alt="Contre-espionnage et sécurité électronique"
+              class="w-full h-56 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>15 Décembre 2024</span>
+              </div>
+              <h3 class="text-xl font-bold mb-3">
+                Contre-Espionnage et Sécurité Électronique
+              </h3>
+              <p class="text-gray-600 mb-4 leading-relaxed">
+                Protection contre l'espionnage industriel et détection de
+                dispositifs d'écoute au Maroc. Sécurisation de bureaux et
+                vérification anti-surveillance par experts en contre-espionnage.
+              </p>
+              <a
+                href="#"
+                class="text-yellow-600 font-semibold hover:text-yellow-700 transition"
+              >
+                Lire la suite →
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="temoignages" class="py-20 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-4xl md:text-5xl font-display font-bold mb-4">
+            Témoignages <span class="text-gradient">Clients</span>
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            La satisfaction de nos clients est notre priorité
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Testimonial 1 -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg fade-in">
+            <div class="flex items-center mb-4">
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              "Service exceptionnel et très professionnel. L'équipe a résolu mon
+              cas en moins d'une semaine avec une discrétion absolue. Je
+              recommande vivement leurs services."
+            </p>
+            <div class="flex items-center">
+              <div
+                class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center text-white font-bold mr-4"
+              >
+                AM
+              </div>
+              <div>
+                <div class="font-semibold">Ahmed M.</div>
+                <div class="text-sm text-gray-500">Casablanca</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg fade-in">
+            <div class="flex items-center mb-4">
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              "Professionnalisme remarquable. Ils ont su gérer mon dossier
+              délicat avec tact et efficacité. Les rapports fournis étaient
+              détaillés et précis. Merci infiniment."
+            </p>
+            <div class="flex items-center">
+              <div
+                class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center text-white font-bold mr-4"
+              >
+                SK
+              </div>
+              <div>
+                <div class="font-semibold">Sarah K.</div>
+                <div class="text-sm text-gray-500">Rabat</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg fade-in">
+            <div class="flex items-center mb-4">
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 text-yellow-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              "Une équipe compétente et réactive. Ils ont mené une enquête
+              complexe pour mon entreprise avec des résultats concluants. Je les
+              recommande sans hésitation."
+            </p>
+            <div class="flex items-center">
+              <div
+                class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center text-white font-bold mr-4"
+              >
+                YB
+              </div>
+              <div>
+                <div class="font-semibold">Youssef B.</div>
+                <div class="text-sm text-gray-500">Marrakech</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12">
+          <!-- Contact Info -->
+          <div class="fade-in">
+            <h2 class="text-4xl md:text-5xl font-display font-bold mb-6">
+              Contactez <span class="text-gradient">Nous</span>
+            </h2>
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+              Besoin d'une consultation confidentielle ? Notre équipe est
+              disponible 24/7 pour répondre à vos questions et vous accompagner
+              dans vos démarches.
+            </p>
+
+            <div class="space-y-6">
+              <div class="flex items-start gap-4">
+                <div
+                  class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-lg mb-1">Téléphone</h3>
+                  <p class="text-gray-600">
+                    <a
+                      href="tel:+212665066015"
+                      class="text-gray-700 hover:text-gray-900 font-medium"
+                    >
+                      📞 +212 665 066 015
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div
+                  class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-lg mb-1">Email</h3>
+                  <p class="text-gray-600">
+                    <a
+                      href="mailto:contact@example.com"
+                      class="text-gray-700 hover:text-gray-900 font-medium"
+                    >
+                      ✉️ contact@example.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div
+                  class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-lg mb-1">Bureaux</h3>
+                  <p class="text-gray-600">Rabat • Casablanca</p>
+                  <p class="text-gray-600">Agadir • Marrakech</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div
+                  class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-semibold text-lg mb-1">Horaires</h3>
+                  <p class="text-gray-600">Disponible 24/7</p>
+                  <p class="text-gray-600">Urgences acceptées</p>
+                </div>
+              </div>
+
+              <!-- Added social media icons -->
+              <div class="mt-8">
+                <h3 class="font-semibold text-lg mb-4">Suivez-Nous</h3>
+                <div class="flex gap-4">
+                  <a
+                    href="#"
+                    class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center hover:scale-110 transition-transform"
+                    aria-label="Facebook"
+                  >
+                    <svg
+                      class="w-6 h-6 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center hover:scale-110 transition-transform"
+                    aria-label="Instagram"
+                  >
+                    <svg
+                      class="w-6 h-6 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center hover:scale-110 transition-transform"
+                    aria-label="LinkedIn"
+                  >
+                    <svg
+                      class="w-6 h-6 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-xl flex items-center justify-center hover:scale-110 transition-transform"
+                    aria-label="Twitter"
+                  >
+                    <svg
+                      class="w-6 h-6 text-white"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="bg-white p-8 rounded-2xl shadow-lg fade-in">
+            <form id="contactForm" class="space-y-6">
+              <div>
+                <label
+                  for="name"
+                  class="block text-sm font-semibold text-gray-700 mb-2"
+                  >Nom Complet *</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="email"
+                  class="block text-sm font-semibold text-gray-700 mb-2"
+                  >Email *</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="phone"
+                  class="block text-sm font-semibold text-gray-700 mb-2"
+                  >Téléphone *</label
+                >
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition"
+                />
+              </div>
+
+              <div>
+                <label
+                  for="city"
+                  class="block text-sm font-semibold text-gray-700 mb-2"
+                  >Ville *</label
+                >
+                <select
+                  id="city"
+                  name="city"
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition"
+                >
+                  <option value="">Sélectionnez une ville</option>
+                  <option value="rabat">Rabat</option>
+                  <option value="casablanca">Casablanca</option>
+                  <option value="agadir">Agadir</option>
+                  <option value="marrakech">Marrakech</option>
+                  <option value="autre">Autre</option>
+                </select>
+              </div>
+
+              <div>
+                <label
+                  for="service"
+                  class="block text-sm font-semibold text-gray-700 mb-2"
+                  >Service Demandé</label
+                >
+                <select
+                  id="service"
+                  name="service"
+                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition"
+                >
+                  <option value="">Sélectionnez un service</option>
+                  <option value="enquete-privee">Enquête Privée</option>
+                  <option value="surveillance">Surveillance Discrète</option>
+                  <option value="entreprise">Enquête Entreprise</option>
+                  <option value="recherche">Recherche de Personnes</option>
+                  <option value="contre-espionnage">Contre-Espionnage</option>
+                  <option value="rapport-juridique">Rapport Juridique</option>
+                </select>
+              </div>
+
+              <div>
+                <label
+                  for="message"
+                  class="block text-sm font-semibold text-gray-700 mb-2"
+                  >Message *</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 outline-none transition resize-none"
+                ></textarea>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <input
+                  type="checkbox"
+                  id="confidentiality"
+                  name="confidentiality"
+                  required
+                  class="mt-1 w-4 h-4 text-yellow-500 border-gray-300 rounded focus:ring-yellow-500"
+                />
+                <label for="confidentiality" class="text-sm text-gray-600">
+                  J'accepte que mes informations soient traitées de manière
+                  confidentielle conformément à la politique de confidentialité.
+                  *
+                </label>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full btn-primary px-8 py-4 rounded-xl font-semibold text-lg"
+              >
+                Envoyer le Message
+              </button>
+
+              <div
+                id="form-message"
+                class="hidden text-center p-4 rounded-xl"
+              ></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-4 gap-8 mb-8">
+          <div>
+            <div class="text-2xl font-display font-bold mb-4">
+              <span class="text-gradient">Detective</span> Privé
+            </div>
+            <p class="text-gray-400 leading-relaxed">
+              Votre partenaire de confiance pour toutes vos investigations au
+              Maroc.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Services</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#services" class="hover:text-yellow-500 transition"
+                  >Enquêtes Privées</a
+                >
+              </li>
+              <li>
+                <a href="#services" class="hover:text-yellow-500 transition"
+                  >Surveillance</a
+                >
+              </li>
+              <li>
+                <a href="#services" class="hover:text-yellow-500 transition"
+                  >Enquêtes Entreprises</a
+                >
+              </li>
+              <li>
+                <a href="#services" class="hover:text-yellow-500 transition"
+                  >Recherche de Personnes</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Liens Rapides</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#accueil" class="hover:text-yellow-500 transition"
+                  >Accueil</a
+                >
+              </li>
+              <li>
+                <a href="#apropos" class="hover:text-yellow-500 transition"
+                  >À Propos</a
+                >
+              </li>
+              <li>
+                <a href="#temoignages" class="hover:text-yellow-500 transition"
+                  >Témoignages</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-yellow-500 transition"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-lg mb-4">Nos Bureaux</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>Rabat</li>
+              <li>Casablanca</li>
+              <li>Agadir</li>
+              <li>Marrakech</li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4"
+        >
+          <p class="text-gray-400 text-sm">
+            © 2025 Detective Privé Maroc. Tous droits réservés.
+          </p>
+          <div class="flex gap-6 text-sm text-gray-400">
+            <a href="#" class="hover:text-yellow-500 transition"
+              >Mentions Légales</a
+            >
+            <a href="#" class="hover:text-yellow-500 transition"
+              >Confidentialité</a
+            >
+            <a href="#" class="hover:text-yellow-500 transition">CGU</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/212665066015"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="fixed left-6 bottom-6 w-16 h-16 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all duration-300 z-50 group"
+      aria-label="Contactez-nous sur WhatsApp"
+    >
+      <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+        />
+      </svg>
+      <span
+        class="absolute left-20 bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+      >
+        Contactez-nous sur WhatsApp
+      </span>
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+      // Mobile Menu Toggle
+      const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const closeMenuBtn = document.getElementById("close-menu");
+      const mobileLinks = document.querySelectorAll(".mobile-link");
+
+      mobileMenuBtn.addEventListener("click", () => {
+        mobileMenu.classList.add("active");
+      });
+
+      closeMenuBtn.addEventListener("click", () => {
+        mobileMenu.classList.remove("active");
+      });
+
+      mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.remove("active");
+        });
+      });
+
+      // Smooth Scrolling
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            const offset = 80;
+            const targetPosition = target.offsetTop - offset;
+            window.scrollTo({
+              top: targetPosition,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+
+      // Fade In Animation on Scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll(".fade-in").forEach((el) => {
+        observer.observe(el);
+      });
+
+      // Form Submission
+      const contactForm = document.getElementById("contact-form");
+      const formMessage = document.getElementById("form-message");
+
+      contactForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // Get form data
+        const formData = new FormData(contactForm);
+        const data = Object.fromEntries(formData);
+
+        // Simulate form submission
+        formMessage.classList.remove(
+          "hidden",
+          "bg-red-100",
+          "text-red-700",
+          "bg-green-100",
+          "text-green-700"
+        );
+        formMessage.classList.add("bg-green-100", "text-green-700");
+        formMessage.textContent =
+          "Merci pour votre message ! Nous vous contacterons dans les plus brefs délais.";
+
+        // Reset form
+        contactForm.reset();
+
+        // Hide message after 5 seconds
+        setTimeout(() => {
+          formMessage.classList.add("hidden");
+        }, 5000);
+
+        // In a real application, you would send this data to a server
+        console.log("Form submitted:", data);
+      });
+
+      // Active Navigation Link
+      window.addEventListener("scroll", () => {
+        const sections = document.querySelectorAll("section[id]");
+        const scrollY = window.pageYOffset;
+
+        sections.forEach((section) => {
+          const sectionHeight = section.offsetHeight;
+          const sectionTop = section.offsetTop - 100;
+          const sectionId = section.getAttribute("id");
+          const navLink = document.querySelector(
+            `.nav-link[href="#${sectionId}"]`
+          );
+
+          if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            if (navLink) {
+              document.querySelectorAll(".nav-link").forEach((link) => {
+                link.classList.remove("text-gray-900");
+                link.classList.add("text-gray-700");
+              });
+              navLink.classList.remove("text-gray-700");
+              navLink.classList.add("text-gray-900");
+            }
+          }
+        });
+      });
+    </script>
+
+    <!-- Schema.org Structured Data for SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Detective Privé Maroc",
+        "description": "Agence de détective privé au Maroc offrant des services d'investigation professionnels et confidentiels",
+        "url": "https://www.magicinvestigation.pro/"
+        "telephone": "+212 665066015,
+        "email": "detectivefantome@gmail.com",
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "addressLocality": "Casablanca",
+            "addressCountry": "MA"
+          },
+          {
+            "@type": "PostalAddress",
+            "addressLocality": "Casablanca",
+            "addressCountry": "MA"
+          },
+          {
+            "@type": "PostalAddress",
+            "addressLocality": "Agadir",
+            "addressCountry": "MA"
+          },
+          {
+            "@type": "PostalAddress",
+            "addressLocality": "Marrakech",
+            "addressCountry": "MA"
+          }
+        ],
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Rabat"
+          },
+          {
+            "@type": "City",
+            "name": "Casablanca"
+          },
+          {
+            "@type": "City",
+            "name": "Agadir"
+          },
+          {
+            "@type": "City",
+            "name": "Marrakech"
+          }
+        ],
+        "priceRange": "$$",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "127"
+        }
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
